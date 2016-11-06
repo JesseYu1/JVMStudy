@@ -4,12 +4,13 @@
  */
 public class StackSOF {
     private int stackLength = 1;
+
     public void stackLeak() {
         stackLength++;
         stackLeak();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Throwable {
         StackSOF stackSOF = new StackSOF();
         try {
             stackSOF.stackLeak();
