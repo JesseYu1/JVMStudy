@@ -12,7 +12,7 @@
  * concurrent mark-sweep generation total 10240K, used 6146K [0x00000007fa400000, 0x00000007fae00000, 0x00000007fae00000)
  * concurrent-mark-sweep perm gen total 21248K, used 2987K [0x00000007fae00000, 0x00000007fc2c0000, 0x0000000800000000)
  */
-public class Allocation {
+public class TestAllocation {
     private static final int _1MB = 1024 * 1024;
 
     public static void main(String[] args) {
